@@ -5,36 +5,44 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>TrouFree</title>
         <link rel="stylesheet" href="log.css">
-    </head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      </head>
     <body>
-     <div class="w3-container"> 
-    <form class="fr">
-      <select name="STUDENT">
-
-        <option value="STUDENT">STUDENT</option>
-        <option value="ADMIN"><a href="/admin_login.html">ADMIN</a></option>
-        <option value="FACULTY">FACULTY</option>
-        <option value="HOD">HOD</option>
-        
-        </select>
-      </form>
+      <div class="sect1">
+         <div class="gp1"> 
+           <div class ="stuhead">
+               <h1>Student</h1>
+           </div>
+           <div class="fr">
+            <button class="btn btn-secondary dropdown-toggle" type="button"  data-toggle="dropdown"
+            aria-haspopup="listbox" class="dropdown-menu" aria-expanded="false">STUDENTS</button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="login_page.html">STUDENTS</a>
+              <a class="dropdown-item" href="admin_login.html">ADMIN</a>
+              <a class="dropdown-item" href="#">HoD</a>
+              <a class="dropdown-item" href="#">FACULTY</a>
+              </div>
+           </div>
    
 
 
       <form class="form1">
         <div class="form-group">
        
-          <label for="exampleInputEmail1">Admission Number</label>
+          <label for="exampleInputEmail1">Admission&nbsp;Number</label>
           <br>
           <input type="admission-number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="19/cs/001">
          <!--  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
         </div>
         <br>
-        <div class="form-group">
+        <!--<div class="form-group"> -->
           <label >DoB</label>
           <br>
           <input type="date" class="form-control" id="exampleInputPassword1" placeholder="10-02-1998">
-        </div>
+        <!--</div> -->
         <br>
         <!-- <div class="form-group form-check">
           <input type="checkbox" class="form-check-input" id="exampleCheck1">
@@ -42,7 +50,8 @@
         </div> -->
         <button type="submit" class="btn btn-primary">Login</button>
       </form>
-       </div> 
+       </div>
+      </div> 
     </body>
 </html>
 
