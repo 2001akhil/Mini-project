@@ -1,41 +1,79 @@
-*{
-    background:url(collegebus.png);
-    background-size: 1635px 800px;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    margin: top 25%;
-    margin: bottom 25%;
-    margin: left 100%;
-    margin: right 25%;
-    
-}
-    /*.sector1{
-      background-color: green;
-    }*/
+/* BASIC */
 
-    .g1{
-        background: transparent;
-    height: 100px;
-    width: 350px;
-    position: center;
-    padding-left: 5%;
-    margin: 25px;
-    margin-bottom: 15px;
-    padding-bottom: 25%;
-    overflow: hidden;
-    /*box-sizing: border-box;
-    border: 2px solid;
-    border-color: white;
-    border-bottom: 5%;
-    border-left: 10%;*/
-}
-.bt{
-    font-style: normal;
-    padding-top: 15%;
-    padding-left: 7%;
-    color: white;
-}
-.b1{
-    color: blue;
-    height: auto;
-}
+html {
+    background-color: #00000000;
+  }
+  
+  body {
+    font-family: "Poppins", sans-serif;
+    height: 100vh;
+  }
+  
+  a {
+    color: #92badd;
+    display:inline-block;
+    text-decoration: none;
+    font-weight: 400;
+  }
+  
+  h2 {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    display:inline-block;
+    margin: 40px 8px 10px 8px; 
+    color: #cccccc;
+  }
+  
+  
+  
+  /* STRUCTURE */
+  
+  .wrapper {
+    display: flex;
+    align-items: left;
+    flex-direction: column; 
+    justify-content: center;
+    width: 100%;
+    min-height: 100%;
+    padding: 20px;
+  }
+  
+  #formContent {
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+    background: rgba(58, 58, 58, 0.644);
+    padding: 30px;
+    width: 90%;
+    max-width: 450px;
+    position: relative;
+    padding: 0px;
+    -webkit-box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+    box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+    text-align: center;
+  }
+  
+  
+  .bg{
+      background-image: url(./collegebus.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+  }
+  h1{
+      color: white;
+  }
+  
+  .g1{
+      margin: 40px;
+  }
+  
+  .button1 {
+    transition-duration: 0.4s;
+  }
+  
+  .button1:hover {
+    background-color: white !important; /* Green */
+    color: black !important;
+  }
