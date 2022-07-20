@@ -1,41 +1,128 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>TrouFree
-        </title>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-        <link rel="stylesheet" href="busstyle.css">
-    </head>
-    <body>
- 
-        <div class="container-md">
-        <nav class="navbar navbar-light navbar-fixed-top bg-light">
-            
-            <div class="container-fluid" id="nb">
-                <a class="navbar-brand" href="booking_page.html" >Home
-                </a>  
-                <a class="navbar-brand" href="#" >Logout
-                </a>
-            </div>
-        </nav>
-    </div>
+<html lang="en">
+<head>
+  <!-- Theme Made By www.w3schools.com -->
+  <title>TrouFree</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="bookstyle.css">
+  <!--<style>
+
+/* BASIC */
+
+html {
+  background-color: #00000000;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  height: 100vh;
+}
+
+a {
+  color: #92badd;
+  display:inline-block;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+h2 {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  display:inline-block;
+  margin: 40px 8px 10px 8px; 
+  color: #cccccc;
+}
 
 
-        <div class="sector1">
+
+/* STRUCTURE */
+
+.wrapper {
+  display: flex;
+  align-items: left;
+  flex-direction: column; 
+  justify-content: center;
+  width: 100%;
+  min-height: 100%;
+  padding: 20px;
+}
+
+#formContent {
+  -webkit-border-radius: 10px 10px 10px 10px;
+  border-radius: 10px 10px 10px 10px;
+  background: rgba(58, 58, 58, 0.644);
+  padding: 30px;
+  width: 90%;
+  max-width: 450px;
+  position: relative;
+  padding: 0px;
+  -webkit-box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+  box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+  text-align: center;
+}
+
+
+.bg{
+    background-image: url(./collegebus.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h1{
+    color: white;
+}
+
+.g1{
+    margin: 40px;
+}
+
+.button1 {
+  transition-duration: 0.4s;
+}
+
+.button1:hover {
+  background-color: white !important; /* Green */
+  color: black !important;
+}
+
+
+  </style>-->
+</head>
+<body class="bg" data-target=".navbar" data-offset="60" >
+
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="javascript:void(0)">Home</a>
+       
+            <form class="d-flex">
+              
+              <button class="btn btn-dark" type="button">Logout</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <!------ Include the above in your HEAD tag ---------->
+    
+    <div class="wrapper fadeInDown">
+      <div id="formContent">
+        <!-- Tabs Titles -->
+    
+        <div class="sector">
             <div class="bt">
-              <h1>Bus Ticket</h1>
-            </div>
-          <div class="g1">
-            <form class="busa">
-                <label style="color: white;" for="dof">Date of Journey</label>
-                <br>
-                <br>
+                <h1>Bus Ticket</h1>
+              </div>
+            <div class="g1">
+               <form class="busa">
+                <p style="color:white;text-align:left;font-size: large;">Date of Journey</p>
                 <input type="date" class="form-control transparent-input" id="dof" style="color: white;">
-                <br>
-                <br>
-                <label style="color: white;" for="dest">Destination</label>
-                <br>
-                <br>
+               
+                <p style="color:white;text-align:left;margin-top: 30px; font-size: large;">Destination</p>
+                
                 <div class="destiop">
                     <select name="Select One" class="form-control transparent-input" id="dest" style="color: white;">
                 
@@ -43,43 +130,53 @@
                   <div class="opt">
                     <option style="color: black;" value="College" id="dest">College</option>
                   </div>
-                    <div class="opt">
+                    <div class="opt1">
                         <option style="color: black;" value="Pala" id="dest">Pala</option>
                     </div>
-                  <div class="opt">
+                  <div class="opt2">
                     <option style="color: black;" value="Pravithanam" id="dest">Pravithanam</option>
                   </div>
-                   <div class="opt">
+                   <div class="opt3">
                     <option style="color: black;" value="Erattupetta" id="dest">Erattupetta</option>
                    </div> 
-                    <div class="opt">
+                    <div class="opt4">
                         <option style="color: black;" value="Thiruvalla" id="dest">Thiruvalla</option>
                     </div>
-                    <div class="opt">
+                    <div class="opt5">
                         <option style="color: black;" value="Kottayam" id="dest">Kottayam</option>
                     </div>
-                    <div class="opt">
+                    <div class="opt6">
                         <option style="color: black;" value="Ettumanoor" id="dest">Ettumanoor</option>
                     </div>
                     
-                    <div class="opt">
+                    <div class="opt7">
                         <option style="color: black;" value="Vaikom" id="dest">Vaikom</option>
                     </div>
-                    
-                </select>
-            </div>
-                <br>
-                <br>
-               
-                <br>
-                <br>
-                <div class="b1">
-                    <button style="color: white;">Proceed</button>
-                </div>
+                    <div class="opt8">
+                        <option style="color: black;" value="Vaikom" id="dest">Kallara</option>
+                    </div>
+
+                   </select>
+                 </div>
                 
-              </form>-->
+                  <div class="b1" style="margin-top:30px ;">
+                      <button class="button1" style="color: white; background-color: black;padding: 10px 50px; border-radius: 30px;">Proceed</button>
+                  </div>
+                </div>
+               </form>
+              </div>
             </div>
+
+           
+
+
+
+
+           
         </div>
         
-    </body>
+    
+      </div>
+    </div>
+</body>
 </html>
