@@ -12,11 +12,24 @@
 </head>
 <body>
  
+
+
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="javascript:void(0)">Home</a>
+       
+            <form class="d-flex">
+              
+              <button class="btn btn-dark" type="button">Logout</button>
+            </form>
+          </div>
+        </div>
+      </nav>
     <!--<div class="bg-modal">-->
                     
 
 
-
+        <form action="">
         <div class="content">
             <div class="header">
                 <h2 style="font-style:italic;">Appointment
@@ -36,33 +49,33 @@
                 <div class="row">
                     <div class="col-sm">
                         <div class="sect">
-                            <select name="tm" class="form-control transparent-input" id="time" style="color: black; padding-left: 25px;">
+                            <select name="time" class="form-control transparent-input" id="time" style="color: black; padding-left: 25px;">
                         
         
                           <div class="opt">
-                            <option style="color: black;" value="9 am" id="time">9 am</option>
+                            <option style="color: black;" value="9 am" name="time" id="time">9 am</option>
                           </div>
                             <div class="opt1">
-                                <option style="color: black;" value="10 am" id="time">10 am</option>
+                                <option style="color: black;" value="10 am" name="time" id="time">10 am</option>
                             </div>
                           <div class="opt2">
-                            <option style="color: black;" value="11 am" id="time">11 am</option>
+                            <option style="color: black;" value="11 am" name="time" id="time">11 am</option>
                           </div>
                            <div class="opt3">
-                            <option style="color: black;" value="12 pm" id="time">12 pm</option>
+                            <option style="color: black;" value="12 pm" name="time" id="time">12 pm</option>
                            </div> 
                             <div class="opt4">
-                                <option style="color: black;" value="1 pm" id="time">1 pm</option>
+                                <option style="color: black;" value="1 pm" name="time" id="time">1 pm</option>
                             </div>
                             <div class="opt5">
-                                <option style="color: black;" value="2 pm" id="time">2 pm</option>
+                                <option style="color: black;" value="2 pm" name="time" id="time">2 pm</option>
                             </div>
                             <div class="opt6">
-                                <option style="color: black;" value="3 pm" id="time">3 pm</option>
+                                <option style="color: black;" value="3 pm" name="time" id="time">3 pm</option>
                             </div>
                             
                             <div class="opt7">
-                                <option style="color: black;" value="12 pm" id="dest">4 pm</option>
+                                <option style="color: black;" value="12 pm"  name="time" id="time">4 pm</option>
                             </div>
                             <!--<div class="opt8">
                                 <option style="color: black;" value="Vaikom" id="dest"></option>
@@ -82,7 +95,18 @@
                 </div>
                 <div class="row">
                     <div class="col-sm">
-                        <input type="textarea" name="pose" id="pose">    
+                        <!--<input type="textarea" name="pose" id="pose">-->
+                        <textarea name="pose" id="pose" cols="30" rows="10"></textarea>    
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm">
+                        <label for="name" class="Name">Enter Name</label>    
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm">
+                        <input type="text" name="name" id="name" placeholder="name">    
                     </div>
                 </div>
                 <div class="row">
@@ -93,7 +117,7 @@
 
 
         </div>
-
+    </form>
 
 
     <!--</div>-->
