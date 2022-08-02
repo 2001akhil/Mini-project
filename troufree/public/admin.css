@@ -1,0 +1,47 @@
+.container{
+  /*background-image: url(graysurf.png);*/
+  margin-top: 5%;
+  padding-left: 14%;
+  padding-top: 15%;
+  padding-bottom: 15%;
+  word-spacing: 2px;
+  /*box-sizing: border-box;
+  box-shadow: 2px;
+  border: 2px  solid;
+  border-bottom-left-radius: 20%;
+  border-bottom-right-radius: 20%;
+  border-top-right-radius: 20%;
+  border-top-left-radius: 20%;
+  border-color: brown;*/
+}
+
+
+.col-sm{
+  padding-top: 10px;
+}
+/*#nwl{
+  padding-top: 10%;
+  padding-left: 20%;
+  padding-bottom: 10%;
+}*/
+
+.navbar-brand{
+  padding-left: 95%;
+}
+
+.addstu{
+  margin-top: -30%;
+  height: 200px;
+           
+
+}
+.admin-section3{
+  color:black;
+  font-weight: 200px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding-left: 10%;
+}
+
+#ms{
+  padding-left: 25%;
+}

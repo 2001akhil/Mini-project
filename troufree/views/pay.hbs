@@ -1,0 +1,44 @@
+   <body>
+    <form action="/ok" method="post">
+       <h1>{{#if use}} {{use.pr}}{{else}}not set{{/if}}</h1>
+         <label for="name"><b>Price</b></label>
+    <input type="text"  value={{use.pr}} placeholder="Enter Email" name="name" required>
+        <label for="date"><b>Date</b></label>
+    <input type="text" value={{dof}}    placeholder="Enter Password" name="date" required>
+     <label for="upi"><b>UPIID</b></label>
+    <input type="password" placeholder="Enter Password" name="upi" required>
+       <label for="name"><b>Name</b></label>
+    <input type="password" placeholder="Enter Password" name="name" required>
+      
+     <label for="dests"><b>ToDestination</b></label>
+    <input type="text" value={{use.to}} placeholder="Enter Password" name="dests" required>
+     <label for="Adm"><b>Addmession_No</b></label>
+    <input type="password" placeholder="Enter Password" name="adm" required>
+      <button type="submit" class="signupbtn">Sign Up</button
+
+
+   </form>
+   <script>
+      const date=localStorage('date')
+      const dest=localStorage('dest')
+      const desti=localStorage('desti')
+      const upi=localStorage('upi')
+      const name=localStorage('name')
+      const use=localStorage('use')
+      const dof=localStorage('dof')
+      const dests=localStorage('dests')
+
+      document.getElementById('date').textContent=date;
+      document.getElementById('dest').textContent=dest;
+      document.getElementById('desti').textContent=desti;
+      document.getElementById('upi').textContent=upi;
+      document.getElementById('name').textContent=name;
+      document.getElementById('dof').textContent=dof;
+      document.getElementById('dests').textContent=dests;
+      
+    
+   
+      </script>
+   </body>
+     <body>
+
