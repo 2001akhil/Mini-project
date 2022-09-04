@@ -1,0 +1,40 @@
+.notifyblock{
+    position:absolute;
+    width:99%;
+    height:10%;
+    background-color:rgb(232, 185, 139);
+   border-color: black;
+   box-shadow: 4px 4px 24px rgba(0, 0, 0, 0.07);
+   border-radius: 5px;
+    
+        
+}
+.accept{
+    position: absolute;
+    height:35%;
+    width:15%;
+top: 40%;
+left:80%;
+    background-color: #007dc1;
+    border-radius: 8px;
+    display: inline-block;
+    font-weight: bold;
+    font-size: medium;
+    font-family: 'Roboto', sans-serif;
+
+}
+h10{
+    position:absolute;
+    left:1%;
+    font-size:xx-large;
+    font-weight:bold;
+    font-family: 'Roboto', sans-serif;
+}
+p12{
+    position: absolute;
+    left:1%;
+    font-size:medium;
+  
+    font-family: 'Roboto', sans-serif;
+    top:55%
+}
